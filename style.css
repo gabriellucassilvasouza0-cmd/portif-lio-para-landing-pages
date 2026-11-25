@@ -1033,6 +1033,38 @@ button {
         1;
 }
 
+/* Teclado: mostra o botão quando o link recebe foco. */
+.project-card:focus-within
+.project-overlay {
+
+    opacity:
+        1;
+}
+
+/* Telas de toque não têm hover: botão sempre visível,
+   com fundo mais leve para a imagem continuar aparecendo. */
+@media (hover: none) {
+
+    .project-overlay {
+
+        opacity:
+            1;
+
+        justify-content:
+            flex-end;
+
+        padding-bottom:
+            30px;
+
+        background:
+            linear-gradient(
+                180deg,
+                transparent 40%,
+                rgba(3,5,8,.85)
+            );
+    }
+}
+
 .project-overlay > span {
 
     color:
@@ -1067,21 +1099,6 @@ button {
 
     font-weight:
         700;
-}
-
-.project-button.is-disabled {
-
-    background:
-        transparent;
-
-    border:
-        1px solid currentColor;
-
-    opacity:
-        0.7;
-
-    cursor:
-        default;
 }
 
 .project-info {

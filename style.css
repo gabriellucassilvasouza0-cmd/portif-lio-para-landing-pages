@@ -946,6 +946,60 @@ button {
         center;
 }
 
+.goyard-image {
+
+    /* Visual neutro de propósito: sem logo, padrão
+       ou fotos da marca real. */
+    background:
+
+        linear-gradient(
+            135deg,
+            rgba(3,5,8,.2),
+            rgba(3,5,8,.85)
+        ),
+
+        radial-gradient(
+            circle at 30% 30%,
+            #3a3120,
+            #120f0a 70%
+        );
+
+    background-size:
+        cover;
+}
+
+.prototype-badge {
+
+    position: absolute;
+
+    top: 20px;
+
+    left: 20px;
+
+    z-index: 2;
+
+    padding:
+        8px 12px;
+
+    border:
+        1px solid var(--red);
+
+    background:
+        rgba(3,5,8,.8);
+
+    color:
+        #fff;
+
+    font-size:
+        10px;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        1.5px;
+}
+
 .project-overlay {
 
     position: absolute;

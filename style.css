@@ -1015,6 +1015,21 @@ button {
         700;
 }
 
+.project-button.is-disabled {
+
+    background:
+        transparent;
+
+    border:
+        1px solid currentColor;
+
+    opacity:
+        0.7;
+
+    cursor:
+        default;
+}
+
 .project-info {
 
     display: flex;

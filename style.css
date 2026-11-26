@@ -929,43 +929,42 @@ button {
 
 .barber-image {
 
+    /* Captura de tela da demo publicada (barbearialisboa.com). */
     background:
 
         linear-gradient(
-            135deg,
-            rgba(3,5,8,.15),
-            rgba(3,5,8,.75)
+            180deg,
+            rgba(3,5,8,0) 55%,
+            rgba(3,5,8,.55)
         ),
 
-        url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=85");
+        url("assets/lisboa-barber.jpg");
 
     background-size:
         cover;
 
     background-position:
-        center;
+        center top;
 }
 
 .goyard-image {
 
-    /* Visual neutro de propósito: sem logo, padrão
-       ou fotos da marca real. */
+    /* Captura de tela do protótipo publicado no Bolt. */
     background:
 
         linear-gradient(
-            135deg,
-            rgba(3,5,8,.2),
-            rgba(3,5,8,.85)
+            180deg,
+            rgba(3,5,8,0) 55%,
+            rgba(3,5,8,.55)
         ),
 
-        radial-gradient(
-            circle at 30% 30%,
-            #3a3120,
-            #120f0a 70%
-        );
+        url("assets/goyard-prototipo.jpg");
 
     background-size:
         cover;
+
+    background-position:
+        left center;
 }
 
 .prototype-badge {
